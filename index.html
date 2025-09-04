@@ -32,92 +32,157 @@
     />
   </head>
   <body class="border-2 border-red-500">
-   <nav>
-    <div class="navbar bg-base-100 shadow-sm">
-  <div class="navbar-start">
-    <div class="dropdown">
-      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
-      </div>
-      <ul
-        tabindex="0"
-        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-    
-     <button class="btn btn-outline  "><i class="fa-regular fa-circle-question"></i>FAQ</button>
-    <button class="btn btn-outline"><i class="fa-solid fa-book-open"></i>learning</button>
-    <button class="btn btn-outline  "><i class="fa-solid fa-right-from-bracket"></i>logOut</button>
-
-      </ul>
-    </div>
-    <a class="btn btn-ghost text-xl"><span class="font-bold text-[20px]">English</span><img src="./assets/logo.png" alt="">
-    <span class="font-semibold">জানালা</span></a>
-  </div>
-  <div class="navbar-end space-x-5 max-md:hidden lg:flex">
-    <button class="btn btn-outline btn-primary"><i class="fa-regular fa-circle-question"></i>FAQ</button>
-    <button class="btn btn-outline btn-primary"><i class="fa-solid fa-book-open"></i>learning</button>
-    <button class="btn btn-outline btn-primary"><i class="fa-solid fa-right-from-bracket"></i>logOut</button>
-  </div>
- 
-  
-</div>
-   </nav>
-   <header>
-    <div class="heroArea md:flex justify-between items-center mt-40 md:mt-20 w-11/12 mx-auto">
-      <div class="flex-1">
-        <h2 class="mb-10 text-[30px] font-bold max-md:text-center"><span class="text-sky-400">English</span> is Easy!!!</h2>
-        <p class="bangla-font max-md:text-center mb-4">আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে যাবে অন্য একটি Level এ</p>
-        <input type="text" placeholder="Your Name:" class="input focus:outline-none mb-4" />
-        <input type="text" placeholder="Your Email" class="input focus:outline-none mb-5" />
-        <div>
-           <button class="btn btn-outline btn-primary ">Get Started</button>
+    <nav>
+      <div class="navbar bg-base-100 shadow-sm">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+            >
+              <button class="btn btn-outline">
+                <i class="fa-regular fa-circle-question"></i>FAQ
+              </button>
+              <button class="btn btn-outline">
+                <i class="fa-solid fa-book-open"></i>learning
+              </button>
+              <button class="btn btn-outline">
+                <i class="fa-solid fa-right-from-bracket"></i>logOut
+              </button>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-xl"
+            ><span class="font-bold text-[20px]">English</span
+            ><img src="./assets/logo.png" alt="" />
+            <span class="font-semibold">জানালা</span></a
+          >
+        </div>
+        <div class="navbar-end space-x-5 max-md:hidden lg:flex">
+          <button class="btn btn-outline btn-primary">
+            <i class="fa-regular fa-circle-question"></i>FAQ
+          </button>
+          <button class="btn btn-outline btn-primary">
+            <i class="fa-solid fa-book-open"></i>learning
+          </button>
+          <button class="btn btn-outline btn-primary">
+            <i class="fa-solid fa-right-from-bracket"></i>logOut
+          </button>
         </div>
       </div>
-      <div class="flex-1 max-md flex flex-col-reverse">
-        <img src="./assets/hero-student.png" alt="">
-      </div>
-    </div>
-   </header>
-   <main>
-    <!--  Vocabularies section -->
-      <section  class="mt-20 text-center ">
-        <h2 class="mb-10 text-[30px] font-bold max-md:text-center"><span class="text-sky-400">Let's</span> Learn Vocabularies</h2>
-
-        <div id="level-Container" class="md:flex justify-center items-center gap-5">
-
+    </nav>
+    <header>
+      <div
+        class="heroArea md:flex justify-between items-center mt-40 md:mt-20 w-11/12 mx-auto"
+      >
+        <div class="flex-1">
+          <h2 class="mb-10 text-[30px] font-bold max-md:text-center">
+            <span class="text-sky-400">English</span> is Easy!!!
+          </h2>
+          <p class="bangla-font max-md:text-center mb-4">
+            আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা
+            আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে যাবে
+            অন্য একটি Level এ
+          </p>
+          <input
+            type="text"
+            placeholder="Your Name:"
+            class="input focus:outline-none mb-4"
+          />
+          <input
+            type="text"
+            placeholder="Your Email"
+            class="input focus:outline-none mb-5"
+          />
+          <div>
+            <button class="btn btn-outline btn-primary">Get Started</button>
+          </div>
         </div>
-    
+        <div class="flex-1 max-md flex flex-col-reverse">
+          <img src="./assets/hero-student.png" alt="" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <!--  Vocabularies section -->
+      <section class="mt-20 text-center">
+        <h2 class="mb-10 text-[30px] font-bold max-md:text-center">
+          <span class="text-sky-400">Let's</span> Learn Vocabularies
+        </h2>
+
+        <div
+          id="level-Container"
+          class="md:flex justify-center items-center gap-5"
+        ></div>
       </section>
+
+      <section class="flex justify-center items-center my-10">
+        <div class="join">
+          <div>
+            <label class="input validator join-item">
+              <input
+                id="input-btn"
+                type="text"
+                placeholder="Serch Vocabularie"
+                required
+              />
+            </label>
+          </div>
+          <button id="serch-btn" class="btn btn-primary join-item">
+            Serch
+          </button>
+        </div>
+      </section>
+
       <!-- All buttons -->
-       <section class="mt-20">
-        <div id="card-container" class="btnMain bg-gray-100 w-11/12 mx-auto  h-full md:grid grid-cols-3 gap-4 p-10 rounded-lg ">
-
+      <section class="mt-20">
+        <div
+          id="card-container"
+          class="btnMain bg-gray-100 w-11/12 mx-auto h-full md:grid grid-cols-3 gap-4 p-10 rounded-lg"
+        >
           <!-- default card ar jaigai ay sms gullo show korbe........ -->
-        <div class="text-center col-span-full bangal-font">
-          <p class="text-gray-500 text-xl">আপনি এখনো কোন Lesson Select করেন নি</p>
-          <h2 class="bangla-font font-bold text-4xl mt-5">একটি Lesson Select করুন।</h2>
+          <div class="text-center col-span-full bangal-font">
+            <p class="text-gray-500 text-xl">
+              আপনি এখনো কোন Lesson Select করেন নি
+            </p>
+            <h2 class="bangla-font font-bold text-4xl mt-5">
+              একটি Lesson Select করুন।
+            </h2>
+          </div>
         </div>
+      </section>
+
+      <!-- modal section -->
+
+      <dialog id="my_modal" class="modal modal-bottom sm:modal-middle">
+        <div class="modal-box">
+          <!--container word details  -->
+          <div id="wordContainer"></div>
+
+          <div class="modal-action">
+            <form method="dialog">
+              <!-- if there is a button in form, it will close the modal -->
+              <button class="btn">Close</button>
+            </form>
+          </div>
         </div>
-       </section>
-
-
-       <!-- modal section -->
-       <!-- Open the modal using ID.showModal() method -->
-<!-- <button class="btn" onclick="my_modal_5.showModal()">open modal</button> -->
-<dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
-  <div class="modal-box">
-    <h3 class="text-lg font-bold">Hello!</h3>
-    <p class="py-4">Press ESC key or click the button below to close</p>
-    <div class="modal-action">
-      <form method="dialog">
-        <!-- if there is a button in form, it will close the modal -->
-        <button class="btn">Close</button>
-      </form>
-    </div>
-  </div>
-</dialog>
-
-
-   </main>
-   <script src="./script/index.js"></script>
+      </dialog>
+    </main>
+    <script src="./script/index.js"></script>
   </body>
 </html>
